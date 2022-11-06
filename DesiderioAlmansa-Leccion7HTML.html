@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciencias</title>
+    <meta name="description" content="Encuentra información sobre las razas de gatos más conocidas.">
+    <meta name="author" content="Desiderio Almansa Porrero">
+	<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    
+    <main>
+
+        <header>
+            <div class="logo">
+                <svg width="100" height="108" viewBow="0 0 75 85">
+                    <circle cx="50" cy="54" r="7" />
+                    <ellipse cx="46" cy="50" rx="50" ry="15" transform="rotate(-90 50 50)"/>
+                    <ellipse cx="50" cy="54" rx="50" ry="15" transform="rotate(-25 50 50)"/>
+                    <ellipse cx="50" cy="54" rx="50" ry="15" transform="rotate(25 50 50)"/>
+                </svg>
+                <a href="#inicio" class="titulologo">Ciencias</a>
+            </div>
+           
+            <nav>
+                <ul>
+                    <li><a href="#grades">Grades</a></li>
+                    <li><a href="#video">Video</a></li>
+                    <li><a href="#podcast">Podcast</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="inicio" style="height: 125px;"></section>
+        <section id="grades">
+            <h2>Grades</h2>  
+            <table>
+                <thead>
+                  <tr>
+                    <th colspan="2">Subject</th>
+                    <th>Jhon Doe</th>
+                    <th>Miriam Luther</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td rowspan="2">Biology</td>
+                    <td>Practical</td>
+                    <td>A</td>
+                    <td>A</td>
+                  </tr>
+                  <tr>
+                    <td>Theory</td>
+                    <td>A+</td>
+                    <td>A</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">Chemistry</td>
+                    <td>Practical</td>
+                    <td>B</td>
+                    <td>C</td>
+                  </tr>
+                  <tr>
+                    <td>Theory</td>
+                    <td>A</td>
+                    <td>C+</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">Physics</td>
+                    <td>Practical</td>
+                    <td>A</td>
+                    <td>A</td>
+                  </tr>
+                  <tr>
+                    <td>Theory</td>
+                    <td>A-</td>
+                    <td>A-</td>
+                  </tr>
+                </tbody>
+                </table>
+        </section>
+
+        <section id="video">
+            <h2>Video</h2>
+            <video src="video/videoCiencias.mp4" width="100%" controls loop poster="img/microscopio.png" preload="auto">
+                <source src="video/videoCiencias.mp4" type="video/mp4">
+                <p>Tu navegador no soporta vídeo HTML5.</p>
+            </video>
+
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/vzopTRZzh-Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+
+        <section id="podcast">
+            <h2>Podcast</h2>
+            <audio style="width: 100%;"src="audio/BBCInsideScience-20220825-ReturnOfTheOzoneHole.mp3" controls preload="auto">    
+                <source src="audio/BBCInsideScience-20220825-ReturnOfTheOzoneHole.mp3" type="audio/mp3">
+            </audio>
+        </section>
+    </main>
+
+   
+
+</body>
+
+<footer>
+    <p>Realizado por Desiderio Almansa Porrero</p>
+</footer>
+</html>
